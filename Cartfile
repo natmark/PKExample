@@ -1,1 +1,1 @@
-github "natmark/ProcessingKit"
+github "natmark/ProcessingKit" ~> 0.4.0

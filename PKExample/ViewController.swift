@@ -13,16 +13,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var customView: CustomView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        customView.delegate = customView
-        customView.isUserInteractionEnabled = true
+
+        // MARK: Create programmatically
+        // let customView = CustomView(frame: self.view.frame)
+        // self.view.addSubview(customView)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
 
 }
 
